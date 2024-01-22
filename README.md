@@ -17,4 +17,4 @@ Aula 02 de React
 - Aplicação criada por cra: `npx create-react-app criative furniture --template typescript`;
 - Scss: `npm install sass --save-dev`
 - Material UI: `npm install @mui/material @emotion/react @emotion/styled`;
-- React Router: `npm install react-router-dom`;
+- React Router: `npm install react-router-dom @types/react-router-dom`;

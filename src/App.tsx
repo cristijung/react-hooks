@@ -1,11 +1,13 @@
 import './App.css';
-import Default from './pages/default/Default';
+import LayoutDefault from './pages/layoutDefault/LayoutDefault';
+
+
 
 function App() {
   return (
-  <>
-    <Default/>
-  </>
+  <>   
+    <LayoutDefault/>
+    </>  
   );
 }
 
