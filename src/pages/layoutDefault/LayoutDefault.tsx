@@ -8,6 +8,7 @@ import Posts from "../posts/Posts";
 import Clock from "../clock/Clock";
 import Counter from "../counter/Counter";
 import ToDo from "../todo/ToDo";
+import Crud from "../crud/Crud";
 
 function LayoutDefault() {
   return (
@@ -20,6 +21,7 @@ function LayoutDefault() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/posts" element={<Posts />} />
           <Route path="/todo" element={<ToDo/>} />
+          <Route path="/crud" element={<Crud/>} />
           <Route path="/clock" element={<Clock timeZone="America/Sao_paulo"/>} />
           <Route path="/counter" element={<Counter initialCount={0} />} />
           <Route path="*" element={<Home />} />
