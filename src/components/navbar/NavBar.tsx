@@ -7,6 +7,7 @@ export default function NavBar() {
             <MenuItem to='/'>Home</MenuItem>
             <MenuItem to='/gallery'>Galeria</MenuItem>
             <MenuItem to='/posts'>Posts</MenuItem>
+            <MenuItem to='/todo'>ToDos</MenuItem>
             <MenuItem to='/counter'>Contador</MenuItem>
             <MenuItem to='/clock'>Relógio</MenuItem>
         </div>
