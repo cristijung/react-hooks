@@ -18,9 +18,12 @@ Aula 02 de React
 
 ## Comandos de instalação:
 - Aplicação criada por cra: `npx create-react-app criative furniture --template typescript`;
-- Scss: `npm install sass --save-dev`
+- Scss: `npm install sass --save-dev;`
 - Material UI: `npm install @mui/material @emotion/react @emotion/styled`;
 - React Router: `npm install react-router-dom @types/react-router-dom`;
 - JSON Server: `npm install -g json-server`;
 - Para iniciar o JSON Server: `json-server --watch db.json --port 3001`;
 - Axios: `npm install axios @types/axios`;
+- React Hook Form: `npm install react-hook-form`;
+- Yup: `npm install yup`;
+- Yup com Hook Form: `npm install @hookform/resolvers yup`;
