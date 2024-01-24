@@ -9,6 +9,9 @@ import Clock from "../clock/Clock";
 import Counter from "../counter/Counter";
 import ToDo from "../todo/ToDo";
 import Crud from "../crud/Crud";
+import SimpleForm from "../simpleForm/SimpleForm";
+import Login from "../login/Login";
+import Register from "../register/Register";
 
 function LayoutDefault() {
   return (
@@ -22,6 +25,9 @@ function LayoutDefault() {
           <Route path="/posts" element={<Posts />} />
           <Route path="/todo" element={<ToDo/>} />
           <Route path="/crud" element={<Crud/>} />
+          <Route path="/simpleForm" element={<SimpleForm/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login/>} />
           <Route path="/clock" element={<Clock timeZone="America/Sao_paulo"/>} />
           <Route path="/counter" element={<Counter initialCount={0} />} />
           <Route path="*" element={<Home />} />

@@ -9,6 +9,9 @@ export default function NavBar() {
             <MenuItem to='/posts'>Posts | </MenuItem>
             <MenuItem to='/todo'>ToDos | </MenuItem>
             <MenuItem to='/crud'>Crud | </MenuItem>
+            <MenuItem to='/simpleForm'>Formulário | </MenuItem>
+            <MenuItem to='/register'>Cadastrar Usuário | </MenuItem>
+            <MenuItem to='/login'>Login | </MenuItem>
             <MenuItem to='/counter'>Contador | </MenuItem>
             <MenuItem to='/clock'>Relógio | </MenuItem>
         </div>
