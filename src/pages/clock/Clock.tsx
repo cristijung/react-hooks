@@ -23,7 +23,7 @@ const Clock = ({ timeZone }: ClockProps) => {
     return () => clearInterval(intervalId);
   }, []); // O array vazio assegura que o efeito é executado apenas uma vez durante a montagem
 
-  // Formata a hora de acordo com a zona de tempo fornecida
+// Formata a hora de acordo com a zona de tempo fornecida
 //  useState é utilizado para criar uma variável de estado time que armazena a data e hora atuais.
 //useEffect é utilizado para realizar operações secundárias. Neste caso, cria um intervalo que atualiza o estado time a cada segundo. 
 //O intervalo é limpo quando o componente é desmontado para evitar vazamentos de memória.
